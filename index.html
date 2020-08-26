@@ -1,99 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>i-Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h2 id="heading">Calculator</h2>
-    <div class="container">
-        <div class="calculator">
-            <div class="screen">
-                <div class="screen" id="calscreen"></div>
+            <div class="screen-box">
+                <h3>E-Calculator</h3>
+                <input type="text" id="screen">
             </div>
-            <div class="button">
-                <div class="row">
-                    <div class="col">
-                        <input type="button" class="btn" value="1">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="2">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="3">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="4">
-                    </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <input type="button" class="btn" value="5">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="6">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="7">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="8">
-                    </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <input type="button" class="btn" value="9">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="0">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value=".">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="+">
-                    </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <input type="button" class="btn" value="*">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="/">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="-">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" value="%">
-                    </div>
-                    
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <input type="button" class="btn" id="clear" value="Clear">
-                    </div>
-                    <div class="col">
-                        <input type="button" class="btn" id="power" value="P">
-                    </div>
-                </div>
-
-
-                
-           
+            
+        <div class="button-box">
+            <div class="row">
+               <button>1</button>
+               <button>2</button>
+               <button>3</button>
+               <button>4</button>
             </div>
+            <div class="row">
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+            </div>
+            <div class="row">
+                <button>9</button>
+                <button>0</button>
+                <button>.</button>
+                <button>+</button>
+            </div>
+            <div class="row">
+               <button>/</button>
+               <button>-</button>
+               <button>X</button>
+               <button>=</button>
+            </div>
+            <div class="row">
+                <button>(</button>
+                <button>)</button>
+                <button>Clear</button>
+                <button>Back</button>
+            </div>
+            
+            
         </div>
     </div>
-
-    <script src="script.js"></script>
+    
 </body>
-
+<script src="./script.js"></script>
 </html>
